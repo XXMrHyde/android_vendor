@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw:qcom \
     vendor/qcom/hammerhead/proprietary/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw:qcom \
     vendor/qcom/hammerhead/proprietary/qcrilhook.xml:system/etc/permissions/qcrilhook.xml:qcom \
+    vendor/qcom/hammerhead/proprietary/qmi_fw.conf:system/etc/qmi_fw.conf:qcom \
     vendor/qcom/hammerhead/proprietary/qcrilhook.jar:system/framework/qcrilhook.jar:qcom \
     vendor/qcom/hammerhead/proprietary/flp.msm8974.so:system/lib/hw/flp.msm8974.so:qcom \
     vendor/qcom/hammerhead/proprietary/gps.msm8974.so:system/lib/hw/gps.msm8974.so:qcom \
