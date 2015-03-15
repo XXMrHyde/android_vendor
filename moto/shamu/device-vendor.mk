@@ -14,6 +14,7 @@
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
+    BuaContactAdapter \
     TimeService
 
 # Prebuilt vendor/libs needed for compilation
