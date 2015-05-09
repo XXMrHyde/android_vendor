@@ -17,36 +17,18 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/shamu/proprietary/bridgemgrd:system/bin/bridgemgrd:qcom \
     vendor/qcom/shamu/proprietary/diag_klog:system/bin/diag_klog:qcom \
     vendor/qcom/shamu/proprietary/diag_mdlog:system/bin/diag_mdlog:qcom \
-    vendor/qcom/shamu/proprietary/diag_qshrink4_daemon:system/bin/diag_qshrink4_daemon:qcom \
     vendor/qcom/shamu/proprietary/irsc_util:system/bin/irsc_util:qcom \
     vendor/qcom/shamu/proprietary/ks:system/bin/ks:qcom \
     vendor/qcom/shamu/proprietary/mdm_helper:system/bin/mdm_helper:qcom \
     vendor/qcom/shamu/proprietary/mm-qcamera-daemon:system/bin/mm-qcamera-daemon:qcom \
     vendor/qcom/shamu/proprietary/mpdecision:system/bin/mpdecision:qcom \
     vendor/qcom/shamu/proprietary/netmgrd:system/bin/netmgrd:qcom \
-    vendor/qcom/shamu/proprietary/PktRspTest:system/bin/PktRspTest:qcom \
     vendor/qcom/shamu/proprietary/port-bridge:system/bin/port-bridge:qcom \
-    vendor/qcom/shamu/proprietary/qmi_ping_clnt_test_0000:system/bin/qmi-framework-tests/qmi_ping_clnt_test_0000:qcom \
-    vendor/qcom/shamu/proprietary/qmi_ping_clnt_test_0001:system/bin/qmi-framework-tests/qmi_ping_clnt_test_0001:qcom \
-    vendor/qcom/shamu/proprietary/qmi_ping_clnt_test_1000:system/bin/qmi-framework-tests/qmi_ping_clnt_test_1000:qcom \
-    vendor/qcom/shamu/proprietary/qmi_ping_clnt_test_1001:system/bin/qmi-framework-tests/qmi_ping_clnt_test_1001:qcom \
-    vendor/qcom/shamu/proprietary/qmi_ping_clnt_test_2000:system/bin/qmi-framework-tests/qmi_ping_clnt_test_2000:qcom \
-    vendor/qcom/shamu/proprietary/qmi_ping_svc:system/bin/qmi-framework-tests/qmi_ping_svc:qcom \
-    vendor/qcom/shamu/proprietary/qmi_ping_test:system/bin/qmi-framework-tests/qmi_ping_test:qcom \
-    vendor/qcom/shamu/proprietary/qmi_test_service_clnt_test_0000:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_0000:qcom \
-    vendor/qcom/shamu/proprietary/qmi_test_service_clnt_test_0001:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_0001:qcom \
-    vendor/qcom/shamu/proprietary/qmi_test_service_clnt_test_1000:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_1000:qcom \
-    vendor/qcom/shamu/proprietary/qmi_test_service_clnt_test_1001:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_1001:qcom \
-    vendor/qcom/shamu/proprietary/qmi_test_service_clnt_test_2000:system/bin/qmi-framework-tests/qmi_test_service_clnt_test_2000:qcom \
-    vendor/qcom/shamu/proprietary/qmi_test_service_test:system/bin/qmi-framework-tests/qmi_test_service_test:qcom \
     vendor/qcom/shamu/proprietary/qmi_motext_hook:system/bin/qmi_motext_hook:qcom \
-    vendor/qcom/shamu/proprietary/qmi_simple_ril_test:system/bin/qmi_simple_ril_test:qcom \
     vendor/qcom/shamu/proprietary/qmuxd:system/bin/qmuxd:qcom \
     vendor/qcom/shamu/proprietary/qseecomd:system/bin/qseecomd:qcom \
     vendor/qcom/shamu/proprietary/radish:system/bin/radish:qcom \
-    vendor/qcom/shamu/proprietary/rundiag:system/bin/rundiag:qcom \
     vendor/qcom/shamu/proprietary/sensors.qcom:system/bin/sensors.qcom:qcom \
-    vendor/qcom/shamu/proprietary/test_diag:system/bin/test_diag:qcom \
     vendor/qcom/shamu/proprietary/thermal-engine:system/bin/thermal-engine:qcom \
     vendor/qcom/shamu/proprietary/time_daemon:system/bin/time_daemon:qcom \
     vendor/qcom/shamu/proprietary/usbhub:system/bin/usbhub:qcom \
@@ -57,7 +39,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/shamu/proprietary/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw:qcom \
     vendor/qcom/shamu/proprietary/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw:qcom \
     vendor/qcom/shamu/proprietary/flp.conf:system/etc/flp.conf:qcom \
-    vendor/qcom/shamu/proprietary/qmi_fw.conf:system/etc/qmi_fw.conf:qcom \
     vendor/qcom/shamu/proprietary/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf:qcom \
     vendor/qcom/shamu/proprietary/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf:qcom \
     vendor/qcom/shamu/proprietary/audio.primary.msm8084.so:system/lib/hw/audio.primary.msm8084.so:qcom \
@@ -114,6 +95,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/shamu/proprietary/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so:qcom \
     vendor/qcom/shamu/proprietary/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so:qcom \
     vendor/qcom/shamu/proprietary/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so:qcom \
+    vendor/qcom/shamu/proprietary/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so:qcom \
     vendor/qcom/shamu/proprietary/activity_recognition.msm8084.so:system/vendor/lib/hw/activity_recognition.msm8084.so:qcom \
     vendor/qcom/shamu/proprietary/flp.msm8084.so:system/vendor/lib/hw/flp.msm8084.so:qcom \
     vendor/qcom/shamu/proprietary/sensors.msm8084.so:system/vendor/lib/hw/sensors.msm8084.so:qcom \
@@ -259,7 +241,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/shamu/proprietary/liboemcamera.so:system/vendor/lib/liboemcamera.so:qcom \
     vendor/qcom/shamu/proprietary/liboemcrypto.so:system/vendor/lib/liboemcrypto.so:qcom \
     vendor/qcom/shamu/proprietary/libois_lc898122.so:system/vendor/lib/libois_lc898122.so:qcom \
-    vendor/qcom/shamu/proprietary/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so:qcom \
     vendor/qcom/shamu/proprietary/libqdi.so:system/vendor/lib/libqdi.so:qcom \
     vendor/qcom/shamu/proprietary/libqdp.so:system/vendor/lib/libqdp.so:qcom \
     vendor/qcom/shamu/proprietary/libqmi_cci.so:system/vendor/lib/libqmi_cci.so:qcom \

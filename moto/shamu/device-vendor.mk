@@ -14,8 +14,28 @@
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
-    BuaContactAdapter \
+    atfwd \
+    ims \
+    RCSBootstraputil \
+    RcsImsBootstraputil \
+    RcsService \
     TimeService
+
+# Prebuilt jars
+PRODUCT_PACKAGES += \
+    com.motorola.ims.rcsmanager \
+    com.verizon.hardware.telephony.ehrpd \
+    com.verizon.hardware.telephony.lte \
+    com.verizon.ims \
+    org.simalliance.openmobileapi \
+    rcsimssettings \
+    rcsservice
+
+# Prebuilt privileged APKs
+PRODUCT_PACKAGES += \
+    BuaContactAdapter \
+    TriggerEnroll \
+    TriggerTrainingService
 
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \

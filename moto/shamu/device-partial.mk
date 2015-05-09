@@ -15,6 +15,10 @@
 # Motorola blob(s) necessary for Shamu hardware
 PRODUCT_COPY_FILES := \
     vendor/moto/shamu/proprietary/adspd:system/bin/adspd:moto \
+    vendor/moto/shamu/proprietary/ATFWD-daemon:system/bin/ATFWD-daemon:moto \
+    vendor/moto/shamu/proprietary/imsdatadaemon:system/bin/imsdatadaemon:moto \
+    vendor/moto/shamu/proprietary/imsqmidaemon:system/bin/imsqmidaemon:moto \
+    vendor/moto/shamu/proprietary/mdm_helper_proxy:system/bin/mdm_helper_proxy:moto \
     vendor/moto/shamu/proprietary/ramdump:system/bin/ramdump:moto \
     vendor/moto/shamu/proprietary/tcmd_mini:system/bin/tcmd_mini:moto \
     vendor/moto/shamu/proprietary/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb:moto \
@@ -43,9 +47,14 @@ PRODUCT_COPY_FILES := \
     vendor/moto/shamu/proprietary/Handset_cal.acdb:system/etc/Handset_cal.acdb:moto \
     vendor/moto/shamu/proprietary/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb:moto \
     vendor/moto/shamu/proprietary/Headset_cal.acdb:system/etc/Headset_cal.acdb:moto \
-    vendor/moto/shamu/proprietary/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml:moto \
+    vendor/moto/shamu/proprietary/com.motorola.ims.rcsmanager.xml:system/etc/permissions/com.motorola.ims.rcsmanager.xml:moto \
+    vendor/moto/shamu/proprietary/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml:moto \
+    vendor/moto/shamu/proprietary/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:moto \
+    vendor/moto/shamu/proprietary/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml:moto \
+    vendor/moto/shamu/proprietary/com.verizon.ims.xml:system/etc/permissions/com.verizon.ims.xml:moto \
+    vendor/moto/shamu/proprietary/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml:moto \
+    vendor/moto/shamu/proprietary/rcsservice.xml:system/etc/permissions/rcsservice.xml:moto \
     vendor/moto/shamu/proprietary/Speaker_cal.acdb:system/etc/Speaker_cal.acdb:moto \
-    vendor/moto/shamu/proprietary/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar:moto \
     vendor/moto/shamu/proprietary/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so:moto \
     vendor/moto/shamu/proprietary/libadspd-jni.so:system/lib/libadspd-jni.so:moto \
     vendor/moto/shamu/proprietary/libadspd.so:system/lib/libadspd.so:moto \
@@ -53,6 +62,7 @@ PRODUCT_COPY_FILES := \
     vendor/moto/shamu/proprietary/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/moto/shamu/proprietary/librecoglib.so:system/lib/librecoglib.so:moto \
     vendor/moto/shamu/proprietary/libsupermodel.so:system/lib/libsupermodel.so:moto \
+    vendor/moto/shamu/proprietary/libtrainingcheck.so:system/lib/libtrainingcheck.so:moto \
     vendor/moto/shamu/proprietary/libfmas.so:system/lib/soundfx/libfmas.so:moto \
     vendor/moto/shamu/proprietary/acdb.mbn:system/vendor/firmware/acdb.mbn:moto \
     vendor/moto/shamu/proprietary/atmel-a432-14061601-0102aa-shamu-p1.tdat:system/vendor/firmware/atmel-a432-14061601-0102aa-shamu-p1.tdat:moto \
@@ -82,9 +92,26 @@ PRODUCT_COPY_FILES := \
     vendor/moto/shamu/proprietary/right.boost.voice.eq:system/vendor/firmware/right.boost.voice.eq:moto \
     vendor/moto/shamu/proprietary/right.boost_voice_table.preset:system/vendor/firmware/right.boost_voice_table.preset:moto \
     vendor/moto/shamu/proprietary/VRGain.bin:system/vendor/firmware/VRGain.bin:moto \
+    vendor/moto/shamu/proprietary/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so:moto \
+    vendor/moto/shamu/proprietary/lib-ims-setting-jni.so:system/vendor/lib/lib-ims-setting-jni.so:moto \
+    vendor/moto/shamu/proprietary/lib-ims-settings.so:system/vendor/lib/lib-ims-settings.so:moto \
+    vendor/moto/shamu/proprietary/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so:moto \
+    vendor/moto/shamu/proprietary/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so:moto \
+    vendor/moto/shamu/proprietary/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so:moto \
+    vendor/moto/shamu/proprietary/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so:moto \
+    vendor/moto/shamu/proprietary/lib-imss.so:system/vendor/lib/lib-imss.so:moto \
+    vendor/moto/shamu/proprietary/lib-imsvt.so:system/vendor/lib/lib-imsvt.so:moto \
+    vendor/moto/shamu/proprietary/lib-imsxml.so:system/vendor/lib/lib-imsxml.so:moto \
     vendor/moto/shamu/proprietary/libmdmcutback.so:system/vendor/lib/libmdmcutback.so:moto \
     vendor/moto/shamu/proprietary/libmotext_inf.so:system/vendor/lib/libmotext_inf.so:moto \
     vendor/moto/shamu/proprietary/libqmimotext.so:system/vendor/lib/libqmimotext.so:moto \
+    vendor/moto/shamu/proprietary/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so:moto \
+    vendor/moto/shamu/proprietary/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so:moto \
+    vendor/moto/shamu/proprietary/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so:moto \
+    vendor/moto/shamu/proprietary/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so:moto \
+    vendor/moto/shamu/proprietary/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so:moto \
+    vendor/moto/shamu/proprietary/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so:moto \
+    vendor/moto/shamu/proprietary/libvcel.so:system/vendor/lib/libvcel.so:moto \
     vendor/moto/shamu/proprietary/lts_en_us_9_5_2b.raw:system/vendor/moto/audiomonitor/sensory/lts_en_us_9_5_2b.raw:moto \
     vendor/moto/shamu/proprietary/nn_de_mfcc_16k_15_big_250_v3_4.raw:system/vendor/moto/audiomonitor/sensory/nn_de_mfcc_16k_15_big_250_v3_4.raw:moto \
     vendor/moto/shamu/proprietary/nn_en_uk_mfcc_16k_15_big_250_v2_2.raw:system/vendor/moto/audiomonitor/sensory/nn_en_uk_mfcc_16k_15_big_250_v2_2.raw:moto \
