@@ -19,7 +19,19 @@ PRODUCT_PACKAGES += \
     RCSBootstraputil \
     RcsImsBootstraputil \
     RcsService \
-    TimeService
+    TimeService \
+    VZWAPNLib
+
+# Prebuilt privileged APKs
+PRODUCT_PACKAGES += \
+    appdirectedsmspermission \
+    AppDirectedSMSProxy \
+    BuaContactAdapter \
+    CNEService \
+    MotoSignatureApp \
+    TriggerEnroll \
+    TriggerTrainingService \
+    VZWAPNService
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
@@ -30,12 +42,6 @@ PRODUCT_PACKAGES += \
     org.simalliance.openmobileapi \
     rcsimssettings \
     rcsservice
-
-# Prebuilt privileged APKs
-PRODUCT_PACKAGES += \
-    BuaContactAdapter \
-    TriggerEnroll \
-    TriggerTrainingService
 
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \

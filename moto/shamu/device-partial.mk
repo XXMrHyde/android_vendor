@@ -16,14 +16,16 @@
 PRODUCT_COPY_FILES := \
     vendor/moto/shamu/proprietary/adspd:system/bin/adspd:moto \
     vendor/moto/shamu/proprietary/ATFWD-daemon:system/bin/ATFWD-daemon:moto \
+    vendor/moto/shamu/proprietary/cnd:system/bin/cnd:moto \
     vendor/moto/shamu/proprietary/imsdatadaemon:system/bin/imsdatadaemon:moto \
     vendor/moto/shamu/proprietary/imsqmidaemon:system/bin/imsqmidaemon:moto \
     vendor/moto/shamu/proprietary/mdm_helper_proxy:system/bin/mdm_helper_proxy:moto \
     vendor/moto/shamu/proprietary/ramdump:system/bin/ramdump:moto \
     vendor/moto/shamu/proprietary/tcmd_mini:system/bin/tcmd_mini:moto \
     vendor/moto/shamu/proprietary/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb:moto \
-    vendor/moto/shamu/proprietary/FIT_V15_audio.cfg:system/etc/diag/mdm/FIT_V15_audio.cfg:moto \
-    vendor/moto/shamu/proprietary/FIT_V15.cfg:system/etc/diag/mdm/FIT_V15.cfg:moto \
+    vendor/moto/shamu/proprietary/FIT_V16_1.cfg:system/etc/diag/mdm/FIT_V16_1.cfg:moto \
+    vendor/moto/shamu/proprietary/FIT_V16_2_volte_full_ip.cfg:system/etc/diag/mdmFIT_V16_2_volte_full_ip.cfg:moto \
+    vendor/moto/shamu/proprietary/FIT_V16_3_audio.cfg:system/etc/diag/mdm/FIT_V16_3_audio.cfg:moto \
     vendor/moto/shamu/proprietary/sensors_qxdm.cfg:system/etc/diag/mdm/sensors_qxdm.cfg:moto \
     vendor/moto/shamu/proprietary/sensors_qxdm.cfg:system/etc/diag/sensors_qxdm.cfg:moto \
     vendor/moto/shamu/proprietary/vpu.b00:system/etc/firmware/vpu.b00:moto \
@@ -47,11 +49,13 @@ PRODUCT_COPY_FILES := \
     vendor/moto/shamu/proprietary/Handset_cal.acdb:system/etc/Handset_cal.acdb:moto \
     vendor/moto/shamu/proprietary/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb:moto \
     vendor/moto/shamu/proprietary/Headset_cal.acdb:system/etc/Headset_cal.acdb:moto \
+    vendor/moto/shamu/proprietary/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
     vendor/moto/shamu/proprietary/com.motorola.ims.rcsmanager.xml:system/etc/permissions/com.motorola.ims.rcsmanager.xml:moto \
     vendor/moto/shamu/proprietary/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml:moto \
     vendor/moto/shamu/proprietary/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:moto \
     vendor/moto/shamu/proprietary/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml:moto \
     vendor/moto/shamu/proprietary/com.verizon.ims.xml:system/etc/permissions/com.verizon.ims.xml:moto \
+    vendor/moto/shamu/proprietary/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
     vendor/moto/shamu/proprietary/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml:moto \
     vendor/moto/shamu/proprietary/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml:moto \
     vendor/moto/shamu/proprietary/rcsservice.xml:system/etc/permissions/rcsservice.xml:moto \

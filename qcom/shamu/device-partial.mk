@@ -145,6 +145,8 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/shamu/proprietary/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_snapshot_hdr.so:qcom \
     vendor/qcom/shamu/proprietary/libchromatix_imx214_snapshot.so:system/vendor/lib/libchromatix_imx214_snapshot.so:qcom \
     vendor/qcom/shamu/proprietary/libchromatix_imx214_video_hdr.so:system/vendor/lib/libchromatix_imx214_video_hdr.so:qcom \
+    vendor/qcom/shamu/proprietary/libcne.so:system/vendor/lib/libcne.so \
+    vendor/qcom/shamu/proprietary/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/qcom/shamu/proprietary/libconfigdb.so:system/vendor/lib/libconfigdb.so:qcom \
     vendor/qcom/shamu/proprietary/libcsd-client.so:system/vendor/lib/libcsd-client.so:qcom \
     vendor/qcom/shamu/proprietary/libdiag.so:system/vendor/lib/libdiag.so:qcom \
@@ -241,6 +243,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/shamu/proprietary/liboemcamera.so:system/vendor/lib/liboemcamera.so:qcom \
     vendor/qcom/shamu/proprietary/liboemcrypto.so:system/vendor/lib/liboemcrypto.so:qcom \
     vendor/qcom/shamu/proprietary/libois_lc898122.so:system/vendor/lib/libois_lc898122.so:qcom \
+    vendor/qcom/shamu/proprietary/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so:qcom \
     vendor/qcom/shamu/proprietary/libqdi.so:system/vendor/lib/libqdi.so:qcom \
     vendor/qcom/shamu/proprietary/libqdp.so:system/vendor/lib/libqdp.so:qcom \
     vendor/qcom/shamu/proprietary/libqmi_cci.so:system/vendor/lib/libqmi_cci.so:qcom \
