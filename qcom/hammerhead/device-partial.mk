@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw:qcom \
     vendor/qcom/hammerhead/proprietary/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw:qcom \
     vendor/qcom/hammerhead/proprietary/qcrilhook.xml:system/etc/permissions/qcrilhook.xml:qcom \
-    vendor/qcom/hammerhead/proprietary/qmi_fw.conf:system/etc/qmi_fw.conf:qcom \
     vendor/qcom/hammerhead/proprietary/qcrilhook.jar:system/framework/qcrilhook.jar:qcom \
     vendor/qcom/hammerhead/proprietary/flp.msm8974.so:system/lib/hw/flp.msm8974.so:qcom \
     vendor/qcom/hammerhead/proprietary/gps.msm8974.so:system/lib/hw/gps.msm8974.so:qcom \
@@ -69,8 +68,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/liboemcrypto.so:system/lib/liboemcrypto.so:qcom \
     vendor/qcom/hammerhead/proprietary/libQSEEComAPI.so:system/lib/libQSEEComAPI.so:qcom \
     vendor/qcom/hammerhead/proprietary/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so:qcom \
-    vendor/qcom/hammerhead/proprietary/librpmb.so:system/lib/librpmb.so \
-    vendor/qcom/hammerhead/proprietary/libssd.so:system/lib/libssd.so \
     vendor/qcom/hammerhead/proprietary/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so:qcom \
     vendor/qcom/hammerhead/proprietary/libxml.so:system/lib/libxml.so:qcom \
     vendor/qcom/hammerhead/proprietary/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw:qcom \
@@ -129,7 +126,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/libizat_core.so:system/vendor/lib/libizat_core.so:qcom \
     vendor/qcom/hammerhead/proprietary/libjpegdhw.so:system/vendor/lib/libjpegdhw.so:qcom \
     vendor/qcom/hammerhead/proprietary/libjpegehw.so:system/vendor/lib/libjpegehw.so:qcom \
-    vendor/qcom/hammerhead/proprietary/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/qcom/hammerhead/proprietary/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so:qcom \
     vendor/qcom/hammerhead/proprietary/libbccQTI.so:system/vendor/lib/libbccQTI.so:qcom \
     vendor/qcom/hammerhead/proprietary/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so:qcom \
@@ -154,7 +150,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/libnetmgr.so:system/vendor/lib/libnetmgr.so:qcom \
     vendor/qcom/hammerhead/proprietary/liboemcamera.so:system/vendor/lib/liboemcamera.so:qcom \
     vendor/qcom/hammerhead/proprietary/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so:qcom \
-    vendor/qcom/hammerhead/proprietary/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/qcom/hammerhead/proprietary/libqdi.so:system/vendor/lib/libqdi.so:qcom \
     vendor/qcom/hammerhead/proprietary/libqdp.so:system/vendor/lib/libqdp.so:qcom \
     vendor/qcom/hammerhead/proprietary/libqmi_cci.so:system/vendor/lib/libqmi_cci.so:qcom \
@@ -173,8 +168,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/libsensor1.so:system/vendor/lib/libsensor1.so:qcom \
     vendor/qcom/hammerhead/proprietary/libsensor_reg.so:system/vendor/lib/libsensor_reg.so:qcom \
     vendor/qcom/hammerhead/proprietary/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so:qcom \
-    vendor/qcom/hammerhead/proprietary/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/qcom/hammerhead/proprietary/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/qcom/hammerhead/proprietary/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
     vendor/qcom/hammerhead/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
 
